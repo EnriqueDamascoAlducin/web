@@ -2168,7 +2168,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 994, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/theme/_elements.scss */
 .form-select .nice-select .list .option:hover {
   color: #f41068;
-  background: transparent;
+  background: black;
 }
 
 /* line 1001, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/theme/_elements.scss */
@@ -2234,7 +2234,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 38, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/theme/_header.scss */
 .menu-top li:hover {
-  background-color: #f41068;
+  background-color:#9933CC;
 }
 
 /* line 53, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/theme/_header.scss */
@@ -2247,7 +2247,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 58, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/theme/_header.scss */
 .navbar-nav a:hover {
-  color: #f41068;
+  color: #10b3f4;
 }
 
 @media (max-width: 992px) {
@@ -2328,9 +2328,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 20, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/theme/_home.scss */
 .p1-gradient-bg, .primary-btn2, .primary-btn2.primary-border:hover, .banner-area, .category-area .content .content-overlay, .men-product-area .overlay-bg, .bottom, .countdown-area .view-btn:hover, .single-footer-widget .click-btn, .generic-banner, .top-section-area, .details-tab-navigation .nav-link:hover, .details-tab-navigation .nav-link.active, .quick-view-carousel-details .owl-controls .owl-dots .owl-dot.active:after, .organic-body .quick-view-carousel .owl-controls .owl-dots .owl-dot.active:after, .organic-body .organic, .organic-body .organic:hover, .checkput-login .top-title, .register-form, .mini-cart-2a.mini-cart-1 .mini-border, .mini-cart-2a.mini-cart-2 .mini-border, .mini-cart-2a.mini-cart-3 .mini-border, .mini-cart-2a.mini-cart-4 .mini-border, .mini-cart.mini-cart-1 .mini-border, .mini-cart.mini-cart-2 .mini-border, .mini-cart.mini-cart-3 .mini-border, .mini-cart.mini-cart-4 .mini-border, .item-cart, .submit-btn, .submit-btn.color-1, .submit-btn.color-2, .submit-btn.color-3, .submit-btn.color-4, .view-btn.color-1:after, .view-btn.color-2:after, .view-btn.color-3:after, .view-btn.color-4:after, .organic-section-title-left .carousel-trigger .prev-trigger:after, .organic-section-title-left .carousel-trigger .next-trigger:after, .single-search-product:before, .single-organic-product:after, .single-organic-product .bottom, .single-organic-product:hover .discount, .single-furniture-product .bottom, .single-furniture-product:hover .discount, .single-sidebar-product:before, .organic-breadcrumb, .grid-btn:hover, .list-btn:hover, .grid-btn.active, .list-btn.active, .pagination a.active, .pagination a:hover, .single-organic-product-list:after {
-  background-image: -moz-linear-gradient(45deg, #f6463d 0%, #f6398d 45%, #f52cdc 100%);
-  background-image: -webkit-linear-gradient(45deg, #f6463d 0%, #f6398d 45%, #f52cdc 100%);
-  background-image: -ms-linear-gradient(45deg, #f6463d 0%, #f6398d 45%, #f52cdc 100%);
+  background-image: -moz-linear-gradient(45deg, #d26edb 0%, #ae5de8 45%, #a82cf5 100%);
+    background-image: -moz-linear-gradient(45deg, #d26edb 0%, #ae5de8 45%, #a82cf5 100%);
+   background-image: -moz-linear-gradient(45deg, #d26edb 0%, #ae5de8 45%, #a82cf5 100%);
 }
 
 /* line 28, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/theme/_home.scss */
@@ -2558,7 +2558,9 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 767px) {
   /* line 195, /Applications/MAMP/htdocs/1.monthy projects/29.Shop/scss/theme/_home.scss */
   .banner-area .fullscreen {
-    height: 700px !important;
+    height: 400px !important;
+    max-height: 400px !important;;
+    min-height: 400px !important;
   }
 }
 
@@ -6853,4 +6855,9 @@ label {
   color: #777777;
 }
 
+@media (max-width: 1200px){
+  #firstLst{
+    display: none;
+  }
+}
 /*# sourceMappingURL=../css/main.map */
